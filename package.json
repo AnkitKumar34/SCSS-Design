@@ -1,0 +1,14 @@
+{
+  "name": "scss_project",
+  "version": "1.0.0",
+  "description": "This is scss code",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "Ankit",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
